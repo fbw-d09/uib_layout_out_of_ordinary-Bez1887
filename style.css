@@ -1,4 +1,52 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.genres {
+  min-width: 200px;
+  height: 100px;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  /* flex-grow: 2;
+  justify-content: center;
+  flex-direction: row; */
+
+  /* flex-direction: row-reverse; */
+}
+
+.A {
+  background-color: blue;
+}
+.T {
+  background-color: grey;
+}
+
+.C {
+  flex-basis: 800px;
+  background-color: yellow;
+}
+
+.H {
+  background-color: black;
+  color: white;
+}
+
+.D {
+  background-color: gainsboro;
+}
+
+.R {
+  flex-basis: 800px;
+  background-color: red;
 }
