@@ -14,10 +14,12 @@ body {
 }
 
 .genres {
+  display: flex;
   min-width: 200px;
   height: 100px;
   flex-basis: 300px;
   flex-wrap: wrap;
+  align-items: center;
   /* flex-grow: 2;
   justify-content: center;
   flex-direction: row; */
